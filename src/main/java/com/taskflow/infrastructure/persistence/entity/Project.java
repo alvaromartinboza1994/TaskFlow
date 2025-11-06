@@ -1,4 +1,4 @@
-package com.taskflow.model.entity;
+package com.taskflow.infrastructure.persistence.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

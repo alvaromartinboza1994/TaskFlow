@@ -1,12 +1,9 @@
-package com.taskflow.model.entity;
+package com.taskflow.infrastructure.persistence.entity;
 
 import com.taskflow.model.enums.TaskPriority;
 import com.taskflow.model.enums.TaskStatus;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
@@ -14,6 +11,7 @@ import lombok.Setter;
 @Table(name = "TASK")
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class Task {
 
     @Id
